@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#response {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #4CAF50; /* Yashil rang */
+    animation: colorChange 3s infinite;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+@keyframes colorChange {
+    0% { color: #4CAF50; }
+    25% { color: #FF5722; }
+    50% { color: #2196F3; }
+    75% { color: #FFEB3B; }
+    100% { color: #4CAF50; }
+}
